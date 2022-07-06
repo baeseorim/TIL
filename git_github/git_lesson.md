@@ -15,6 +15,9 @@
 #### 2. 기본 인터페이스
 
 - 컴퓨터 정보, [디렉토리](https://wnw1005.tistory.com/435), $
+ 
+ 
+ 
  ![git_bash](git_lesson.assets/git_bash.jpg)
 
 
@@ -96,6 +99,9 @@
   - untracked : 버전으로 관리된 적이 없는 파일, 즉 파일을 새로 만든 경우를 말함
   
  - 파일 라이프사이클
+   
+   
+   
    ![git_lifecycle](git_lesson.assets/git_lifecycle.png)
 
 
@@ -107,7 +113,7 @@ $ git init
 ```
 
 - 특정 폴더를 Git 저장소로 만들어 git으로 관리함
-- .git 폴더가 생성되며 git bash에서는 *(master)*라는 표기를 확인할 수 있음
+- .git 폴더가 생성되며 git bash에서는 _(master)_라는 표기를 확인할 수 있음
 
 
 
@@ -190,13 +196,11 @@ $ git status
 - —system
   
   - 경로 : /etc/gitconfig
-- 시스템의 모든 사용자와 모든 저장소에 적용 됨 (관리자 권한)
-  
+  - 시스템의 모든 사용자와 모든 저장소에 적용 됨 (관리자 권한)
 - —global
   
   - 경로 : ~/.gitconfig
-- 현재 사용자에게 적용 됨
-  
+  - 현재 사용자에게 적용 됨
 - —local
   
   - 경로 : .git/config

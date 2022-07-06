@@ -42,7 +42,7 @@
 
 #### 1. READ ME.md
 
-- GitHub 등의 사이트에서는 파일명이 README**.md**인 것을 모두 보여줌
+- GitHub 등의 사이트에서는 파일명이 README.md인 것을 모두 보여줌
   - 오픈소스의 공식 문서를 작성하거나 개인 프로젝트의 프로젝트 소개서로 활용 됨
   - 모든 페이지에 README.md를 넣어 문서를 바로 볼 수 있도록 활용 됨
 
@@ -51,7 +51,10 @@
 #### 2. 기술 블로그
 
 - 다양한 기술블로그에서 [정적사이트생성기](https://www.daleseo.com/spa-ssg-ssr/#ssg-static-site-generator)(Static Site Generator)를 이용해 활용함
-  - Jekyll, Gatsby, Hugo, Hexo 등을 통해 작성된 마크다운을 HTML, CSS, JS 파일 등으로 변환하고 Github Pages 기능을 통해 호스팅 함 (외부 공개)
+  
+  - Jekyll, Gatsby, Hugo, Hexo 등을 통해 작성된 마크다운을 HTML, CSS, JS 파일 등으로 변환하고 Github Pages 기능을 통해 호스팅 함
+  
+    (외부 공개)
 
 
 
@@ -164,8 +167,8 @@
 #### 9. Text Emphasis
 
 ```markdown
-use asterisks to make the text **bold** and *italic* effect
-or you can use underscores like this :__bold__ , _italic_
+use asterisks to make the text **bold** and *italic*
+or you can use underscores :__bold__ , _italic_
 ```
 
 - 굵게(bold), 기울임(Italic)을 통해 특정 글자들을 강조함
