@@ -15,9 +15,9 @@
 #### 2. 기본 인터페이스
 
 - 컴퓨터 정보, [디렉토리](https://wnw1005.tistory.com/435), $
+
  
- 
- 
+
  ![git_bash](git_lesson.assets/git_bash.jpg)
 
 
@@ -33,8 +33,8 @@
 - ls (list) : 목록
 - mkdir (make directory) : 디렉토리 생성
 - touch : 파일 생성
-- rm 파일명 (remove) : 파일 삭제하기
-- rm –r 폴더명 : 폴더 삭제하기
+- rm *파일명* (remove) : 파일 삭제하기
+- rm –r *폴더명* : 폴더 삭제하기
 
 
 
@@ -216,7 +216,7 @@ $ git status
     #1 저장소 생성
     Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL
     $ git init
-    Initialized empty Git repository in C:/Users/Design/Desktop/TIL/.git/
+    Initialized empty Git repository in C:/Users/Baesr/Desktop/TIL/.git/
     
     #2 사용자 정보 생성
     Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)

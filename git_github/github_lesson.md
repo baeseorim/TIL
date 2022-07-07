@@ -53,7 +53,7 @@ $ git remote add (origin) (repository address)
 - 원격 저장소는 일반적으로 origin으로 설정함
 - 원격 저장소 정보를 로컬 저장소에 추가함
 - **로컬 저장소에는 한번만 설정해주면 됨**
-- GitHub에서도 확인할 수 있음
+- GitHub에서도 명령어를 확인할 수 있음
 
 
 
@@ -84,7 +84,7 @@ $ git pull (orgin) (master)
 #### 1. 저장소 이름 변경
 
 - Settings > General > Repository Name
-- **저장소 이름 변경 시 원격 저장소 url이 변경되어 로컬 설정 변경이 필수적임**
+- **저장소 이름 변경 시 원격 저장소 url이 변경되므로 로컬 설정 변경이 필수적임**
 
 
 
