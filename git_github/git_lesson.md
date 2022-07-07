@@ -113,7 +113,7 @@ $ git init
 ```
 
 - 특정 폴더를 Git 저장소로 만들어 git으로 관리함
-- .git 폴더가 생성되며 git bash에서는 _(master)_라는 표기를 확인할 수 있음
+- .git 폴더가 생성되며 git bash에서는 (master)라는 표기를 확인할 수 있음
 
 
 
