@@ -171,7 +171,7 @@ use asterisks to make the text **bold** and *italic*
 or you can use underscores :__bold__ , _italic_
 ```
 
-- 굵게(bold), 기울임(Italic)을 통해 특정 글자들을 강조함
+- 굵게(bold), 기울임(italic)을 통해 특정 글자들을 강조함
 
 
 

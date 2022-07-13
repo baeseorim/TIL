@@ -13,7 +13,8 @@ KDT 풀스택 과정 중 배운 지식 위주로 기록합니다.
   - [git/github](https://github.com/baeseorim/TIL/tree/master/git_github)  [2022-07-06]
   - [git/github flow](https://github.com/baeseorim/TIL/blob/master/git_github/git_github_flow.md) [2022-07-07]
 - Python
-  - [practice (codeup)](https://github.com/baeseorim/TIL/tree/master/python_codeup) [2022-07-11]
+  - python 01 [2022-07-11]
+  - practice (codeup) [2022-07-11]
 - Algorithm
 - DB
 - HTML/CSS/JS

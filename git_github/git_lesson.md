@@ -8,7 +8,7 @@
 - 가상 [터미널](https://gggggeun.tistory.com/39) 또는 텍스트 터미널을 통해 사용자와 컴퓨터가 상호 작용하는 방식을 뜻함
 - 작업 명령은 사용자가 툴바 키보드 등을 통해 문자열의 형태로 입력하며, 컴퓨터로부터의 출력 역시 문자열의 형태로 주어짐
 - 이와 같은 인터페이스를 제공하는 프로그램을 명령 줄 해석기 또는 셸이라고 부름
-  - 유닉스 셸(sh, ksh, csh, tcsh, bash 등)과 CP/M, 도스의 command.com("명령 프롬프트") 등이 있음
+  - 유닉스 셸(sh, ksh, csh, tcsh, bash 등)과 CP/M, 도스의 명령 프롬프트(command.com) 등이 있음
 
 
 
@@ -23,17 +23,16 @@
 
 
 #### 3. 디렉토리 관리
-
-- pwd (print working directory) : 현재 디렉토리 출력
-- cd *디렉토리이름* (change directory) : 디렉토리 이동
+- pwd : 현재 디렉토리 출력(Print working directory)
+- cd *디렉토리이름* : 디렉토리 이동(Change directory)
   
   - . : 현재 디렉토리
   - .. : 상위 디렉토리
   - 그래서 git add . 는 현재 폴더에 대한 모든 파일의 변경사항을 add 하게 됨
-- ls (list) : 목록
-- mkdir (make directory) : 디렉토리 생성
+- ls : 목록(List)
+- mkdir : 디렉토리 생성(Make directory)
 - touch : 파일 생성
-- rm *파일명* (remove) : 파일 삭제하기
+- rm *파일명*  : 파일 삭제하기(Remove)
 - rm –r *폴더명* : 폴더 삭제하기
 
 
@@ -56,20 +55,20 @@
 
 ### 정의
 
-- Git은 분산버전관리시스템으로 코드의 버전을 관리하는 도구
+- Git은 **분산버전관리시스템**으로 코드의 버전을 관리하는 도구
 - 2005년 [리눅스 커널](https://5equal0.tistory.com/entry/Linux-Kernel-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%BB%A4%EB%84%90%EC%9D%98-%EA%B5%AC%EC%A1%B0)을 위한 도구로 리누스 토르발스가 개발함
 - 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율함
 
 
 
-### DVCS (분산버전관리시스템)
+### 분산버전관리시스템(DVCS)
 
 - 중앙집중식버전관리시스템 : 중앙에서 버전을 관리하고 파일을 받아서 사용하는 것
 - 분산버전관리시스템 : 원격 저장소(Remote Repository)를 통해 협업하고, 모든 히스토리를 클라이언트들이 공유하는 것
 
 
 
-### Git Repository (Git 저장소)
+### Git 저장소(Git Repository)
 
 #### 1. 기본 명령어
 
@@ -112,7 +111,7 @@
 $ git init
 ```
 
-- 특정 폴더를 Git 저장소로 만들어 git으로 관리함
+- 특정 폴더를 Git 저장소로 만들어 Git으로 관리함
 - .git 폴더가 생성되며 git bash에서는 (master)라는 표기를 확인할 수 있음
 
 
@@ -189,8 +188,8 @@ $ git status
 - 사용자 정보(Commit Author) : 커밋을 하기 위해 반드시 필요함
 
   ```bash
-  $ git config —global user.name “(GitHub username)”
-  $ git config —global user.email “(GitHub id@email.com)”
+  $ git config —global user.name '(GitHub username)'
+  $ git config —global user.email '(GitHub id@email.com)'
   ```
 
 - —system
@@ -210,7 +209,7 @@ $ git status
 
 #### 2. Git 실습 : TIL 프로젝트 관리
 
- 1. TIL 폴더를 만들고 git 저장소를 만들기
+ 1. TIL 폴더를 만들고 Git 저장소를 만들기
 
     ```bash
     #1 저장소 생성
