@@ -4,7 +4,7 @@
   - 컴퓨터(Computer) : Calculation + Remember
   - 프로그래밍(Programming) : 명령어의 모음(집합)
   - 언어 : 자신의 **생각을 나타내고 전달하기** 위해 사용하는 체계 **문법적**으로 맞는 말의 집합
-- 컴퓨터에게 명령하기 위한 약속이며 **명령적 지식(Imperative Knowledge)**임
+- 컴퓨터에게 명령하기 위한 약속이며 __명령적 지식(Imperative Knowledge)__임
 
 
 
