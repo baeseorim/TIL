@@ -153,7 +153,7 @@ $ git commit -m '커밋 메시지'
 #### 6. 명령어 `log`
 
 ```bash
-$git log
+$ git log
 ```
 
 - 현재 저장소에 기록된 커밋을 조회함
@@ -225,7 +225,7 @@ $ git status
    $ git config --global user.name 'baeseorim'
    
    Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
-$ git config --global user.email 'bae001449@gmail.com'
+   $ git config --global user.email 'bae001449@gmail.com'
    ```
 
    ㅤ
@@ -272,12 +272,12 @@ Date:   Wed Jul 6 01:08:53 2022 +0900
     create mode 100644 markdown_practice.md
     
     #3 commit 확인 : log
-$ git log -1
-commit 5b206f4020f314324a45e4f48d431f50833f0de5 (HEAD -> master)
-Author: baeseorim <bae001449@gmail.com>
-Date:   Wed Jul 6 01:09:50 2022 +0900
-
-    markdown
+    $ git log -1
+    commit 5b206f4020f314324a45e4f48d431f50833f0de5 (HEAD -> master)
+    Author: baeseorim <bae001449@gmail.com>
+    Date:   Wed Jul 6 01:09:50 2022 +0900
+    
+        markdown
    ```
 
    ㅤ
