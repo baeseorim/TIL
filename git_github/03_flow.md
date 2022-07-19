@@ -63,25 +63,25 @@
 
 - GitHub Flow는 GitHub에서 제안하는 브랜치 전략으로 다음과 같은 기본 원칙을 가지고 있음
 
-  1. master 브랜치는 반드시 배포 가능한 상태여야 한다.
+ 1. master 브랜치는 반드시 배포 가능한 상태여야 한다.
 
-  2. feature 브랜치는 각 기능의 의도를 알 수 있도록 작성한다.
+ 2. feature 브랜치는 각 기능의 의도를 알 수 있도록 작성한다.
 
-  3. **Commit Message는 매우 중요하며, 명확하게 작성한다.**
+ 3. **Commit Message는 매우 중요하며, 명확하게 작성한다.**
 
-  4. Pull Request를 통해 협업을 진행한다.
+ 4. Pull Request를 통해 협업을 진행한다.
 
-  5. 변경사항을 반영하고 싶다면, master 브랜치에 병합한다.
+ 5. 변경사항을 반영하고 싶다면, master 브랜치에 병합한다.
 
-  > 1. There's only one rule: anything in the master branch is always deployable.
-  >
-  > 2. Your branch name should be descriptive, so that others can see what is being worked on.
-  >
-  > 3. Commit messages are important. By writing clear commit messages, you can make it easier for other people to follow along and provide feedback.
-  >
-  > 4. Pull Requests are useful for contributing to open source projects and for managing changes to shared repositories.
-  >
-  > 5. Now that your changes have been vertified in production, it is time to merge your code into the master branch.
+ > 1. There's only one rule: anything in the master branch is always deployable.
+ >
+ > 2. Your branch name should be descriptive, so that others can see what is being worked on.
+ >
+ > 3. Commit messages are important. By writing clear commit messages, you can make it easier for other people to follow along and provide feedback.
+ >
+ > 4. Pull Requests are useful for contributing to open source projects and for managing changes to shared repositories.
+ >
+ > 5. Now that your changes have been vertified in production, it is time to merge your code into the master branch.
 
 ㅤ
 
