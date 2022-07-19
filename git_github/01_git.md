@@ -245,13 +245,13 @@ $ git status
     create mode 100644 README.md
     
    #3 commit 확인 : log
-Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
-$ git log
-commit 48acf07565b9aba1f5895ed119662be42e3a9684 (HEAD -> master)
-Author: baeseorim <bae001449@gmail.com>
-Date:   Wed Jul 6 01:08:53 2022 +0900
-
-    readme
+   Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
+   $ git log
+   commit 48acf07565b9aba1f5895ed119662be42e3a9684 (HEAD -> master)
+   Author: baeseorim <bae001449@gmail.com>
+   Date:   Wed Jul 6 01:08:53 2022 +0900
+   
+       readme
    ```
 
    ㅤ
@@ -286,32 +286,32 @@ Date:   Wed Jul 6 01:08:53 2022 +0900
 
    ```bash
    #1 git 파일들을 add
-Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
-$ git add 01_git.md 01_git.assets
+   Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
+   $ git add 01_git.md 01_git.assets
    
    #2 git 파일들을 commit
-Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
-$ git commit -m 'git'
-[master ee2114d] 01_git
- 6 files changed, 336 insertions(+)
- create mode 100644 01_git.assets/git_bash.jpg
- create mode 100644 01_git.assets/git_commit.png
- create mode 100644 01_git.assets/git_flow.png
- create mode 100644 01_git.assets/git_lifecycle.png
- create mode 100644 01_git.assets/version_control_sw.jpg
- create mode 100644 01_git.md
+   Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
+   $ git commit -m 'git'
+   [master ee2114d] 01_git
+    6 files changed, 336 insertions(+)
+    create mode 100644 01_git.assets/git_bash.jpg
+    create mode 100644 01_git.assets/git_commit.png
+    create mode 100644 01_git.assets/git_flow.png
+    create mode 100644 01_git.assets/git_lifecycle.png
+    create mode 100644 01_git.assets/version_control_sw.jpg
+    create mode 100644 01_git.md
     
     #3 commit 확인 : log
-Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
-$ git log -1
-commit 7e0f2e7f42da59a0ef946b27add1b3dfa9f08734 (HEAD -> master)
-Author: baeseorim <bae001449@gmail.com>
-Date:   Wed Jul 6 01:11:37 2022 +0900
-   
+    Baesr@DESKTOP-ULHVF1P MINGW64 ~/Desktop/TIL (master)
+    $ git log -1
+    commit 7e0f2e7f42da59a0ef946b27add1b3dfa9f08734 (HEAD -> master)
+    Author: baeseorim <bae001449@gmail.com>
+    Date:   Wed Jul 6 01:11:37 2022 +0900
+       
        git lesson
    
    #4 최종 status
-$ git status
-On branch master
-nothing to commit, working tree clean
+   $ git status
+   On branch master
+   nothing to commit, working tree clean
    ```
