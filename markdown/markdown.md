@@ -10,15 +10,11 @@
   >
   > Markdown allows you to write using an **easy-to-read, easy-to-write plain text format**, then convert it to srtucturally valid XHTML (or HTML).
   >
-  > ㅤ
-  >
   > Thus, "Markdown" is two things:
   >
   > (1) **a plain text formatting syntax**
   >
   > (2) a software tool, written in Perl, **that converts the plain text formatting to HTML**.
-  >
-  > ㅤ
   >
   > The overriding **design goal for Markdown's formatting syntax is to make it as readable as possible**.
 
@@ -41,7 +37,7 @@
 
 #### 1. README.md
 
-- GitHub 등의 사이트에서는 파일명이 README**.md**인 것을 모두 보여줌
+- GitHub 등의 사이트에서는 파일의 확장자명까지 모두 보여줌
 - 오픈소스의 공식 문서를 작성하거나 개인 프로젝트의 프로젝트 소개서로 활용 됨
 - 모든 페이지에 README.md를 넣어 문서를 바로 볼 수 있도록 활용 됨
 
